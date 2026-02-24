@@ -144,7 +144,6 @@ age_range = st.sidebar.slider(
     int(df.Age.max()),
     (int(df.Age.min()), int(df.Age.max()))
 )
-st.sidebar.markdown("---")
 
 # BLOOD SUGAR
 bs_range = st.sidebar.slider(
@@ -153,7 +152,6 @@ bs_range = st.sidebar.slider(
     float(df.BS.max()),
     (float(df.BS.min()), float(df.BS.max()))
 )
-st.sidebar.markdown("---")
 
 # SYSTOLIC
 sys_range = st.sidebar.slider(
@@ -162,7 +160,6 @@ sys_range = st.sidebar.slider(
     int(df.SystolicBP.max()),
     (int(df.SystolicBP.min()), int(df.SystolicBP.max()))
 )
-st.sidebar.markdown("---")
 
 # DIASTOLIC
 dia_range = st.sidebar.slider(
@@ -171,7 +168,6 @@ dia_range = st.sidebar.slider(
     int(df.DiastolicBP.max()),
     (int(df.DiastolicBP.min()), int(df.DiastolicBP.max()))
 )
-st.sidebar.markdown("---")
 
 filtered_df = df[
     df.Age.between(age_range[0], age_range[1]) &
@@ -190,36 +186,43 @@ st.sidebar.markdown("### 👩‍💻 Contact Me")
 
 st.sidebar.markdown("""
 <div style="
-background:#111827;
-padding:15px;
-border-radius:12px;
-border:1px solid rgba(255,255,255,0.1);
-line-height:1.8">
+background:#0b1a2b;
+padding:16px 18px;
+border-radius:16px;
+line-height:1.4;
+">
 
-<b>Eva Musdalifah</b><br>
-<span style="color:#9ca3af;font-size:13px">
+<h4 style="margin-bottom:4px;">Eva Musdalifah</h4>
+
+<p style="margin:0;color:#9ca3af;font-size:13px;">
 Data Analyst • Machine Learning
-</span>
+</p>
 
-<br><br>
-
+<div style="margin:10px 0;">
 <span style="
-background:#064e3b;
-color:#6ee7b7;
+background:#16a34a;
 padding:4px 10px;
-border-radius:20px;
+border-radius:999px;
 font-size:12px;
-font-weight:600;">
+font-weight:600;
+">
 Available for freelance | Open to work
 </span>
+</div>
 
-<br><br>
+<a href="https://www.linkedin.com/in/evamusdalifah/" target="_blank" style="display:block;margin:6px 0;color:#60a5fa;text-decoration:none;">🔗 Linkedin</a>
 
-🔗 <a href="https://www.linkedin.com/in/evamusdalifah/" target="_blank">LinkedIn</a><br>
-💻 <a href="https://github.com/evamusdalifah" target="_blank">GitHub</a><br>
-📧 <a href="mailto:evamusdalifah04@email.com">Email</a><br>
-📱 <a href="https://wa.me/6285746606551">WhatsApp</a>
+<a href="https://github.com/evamusdalifah" target="_blank" style="display:block;margin:6px 0;color:#60a5fa;text-decoration:none;">💻 Github</a>
 
+<a href="mailto:evamusdalifah04@gmail.com" style="display:block;margin:6px 0;color:#60a5fa;text-decoration:none;">📧 Email</a>
+
+<a href="https://wa.me/6285746606551" target="_blank" style="display:block;margin:6px 0;color:#60a5fa;text-decoration:none;">📱 WhatsApp</a>
+
+<a href="https://drive.google.com/file/d/1PwMjDMeWH_rTkB4Xn666enuDLrTvwpr6/view?usp=sharing" target="_blank"
+style="display:block;margin:6px 0;color:#60a5fa;text-decoration:none;">
+📄 View CV
+</a>
+                                        
 </div>
 """, unsafe_allow_html=True)
 
