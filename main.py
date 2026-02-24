@@ -184,6 +184,45 @@ if filtered_df.empty:
     st.warning("No data matches selected filters")
     st.stop()
 
+# CONTACT ME
+st.sidebar.markdown("---")
+st.sidebar.markdown("### 👩‍💻 Contact Me")
+
+st.sidebar.markdown("""
+<div style="
+background:#111827;
+padding:15px;
+border-radius:12px;
+border:1px solid rgba(255,255,255,0.1);
+line-height:1.8">
+
+<b>Eva Musdalifah</b><br>
+<span style="color:#9ca3af;font-size:13px">
+Data Analyst • Machine Learning
+</span>
+
+<br><br>
+
+<span style="
+background:#064e3b;
+color:#6ee7b7;
+padding:4px 10px;
+border-radius:20px;
+font-size:12px;
+font-weight:600;">
+Available for freelance | Open to work
+</span>
+
+<br><br>
+
+🔗 <a href="https://www.linkedin.com/in/evamusdalifah/" target="_blank">LinkedIn</a><br>
+💻 <a href="https://github.com/evamusdalifah" target="_blank">GitHub</a><br>
+📧 <a href="mailto:evamusdalifah04@email.com">Email</a><br>
+📱 <a href="https://wa.me/6285746606551">WhatsApp</a>
+
+</div>
+""", unsafe_allow_html=True)
+
 def card(title, value):
     return f"""
     <div class="metric-card">
