@@ -218,7 +218,7 @@ Available for freelance | Open to work
 
 <a href="https://wa.me/6285746606551" target="_blank" style="display:block;margin:6px 0;color:#60a5fa;text-decoration:none;">📱 WhatsApp</a>
 
-<a href="https://drive.google.com/file/d/1PwMjDMeWH_rTkB4Xn666enuDLrTvwpr6/view?usp=sharing" target="_blank"
+<a href="https://drive.google.com/drive/u/0/folders/1m12F-i4UrngH8-XXajHvG29UUu8TVC6E" target="_blank"
 style="display:block;margin:6px 0;color:#60a5fa;text-decoration:none;">
 📄 View CV
 </a>
