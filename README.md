@@ -1,7 +1,29 @@
-**MATERNAL HEALTH PREDICTION**
+# Maternal Health Risk Dashboard
 
-Berdasarkan data Sensus Penduduk 2010, angka kematian ibu (AKI) di Indonesia cukup tinggi, dengan estimasi mencapai sekitar 346 kematian per 100.000 kelahiran hidup. Sementara itu, angka kematian bayi (AKB) sekitar tahun 2010 tercatat berkisar 34 per 1.000 kelahiran hidup, yang menunjukkan risiko signifikan bagi kelangsungan hidup bayi baru lahir pada periode tersebut. Atas hal tsb, Perserikatan Bangsa-Bangsa (PBB) menetapkan sustainable Development Goals (SDGs), dengan dua tujuan diantara nya adalah menurunkan angka kematian ibu dan bayi.
+Interactive dashboard to analyze maternal health risk using machine learning and data visualization.
 
-Project ini dibuat untuk memprediksi tingkat resiko kehamilan berdasarkan data kesehatan umum menggunakan simulasi dataset Kaggle. Hal ini diharapkan dapat membantu tim medis dalam memberikan perawatan yang lebih tepat kepada ibu hamil sehingga menghindari tingginya resiko kehamilan.
+## 🔎 Overview
+This project predicts maternal health risk levels based on:
+- Age
+- Blood Pressure
+- Glucose
+- Body Temperature
+- Heart Rate
 
-Live Demo 👉: https://portfolio-maternalhealth.streamlit.app/
+## 📊 Live Demo
+👉 https://portfolio-maternalhealth.streamlit.app/
+
+## ⚙️ Tools Used
+- Python
+- Pandas
+- Streamlit
+- Scikit-learn
+
+## 🎯 Objective
+To help healthcare professionals quickly assess pregnancy risk levels using predictive analytics.
+
+## 📁 Dataset
+Maternal Health Risk Dataset
+
+## 👩‍💻 Author
+Eva Musdalifah
