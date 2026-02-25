@@ -226,6 +226,26 @@ style="display:block;margin:6px 0;color:#60a5fa;text-decoration:none;">
 </div>
 """, unsafe_allow_html=True)
 
+st.sidebar.markdown("<hr style='opacity:0.2'>", unsafe_allow_html=True)
+
+st.sidebar.markdown("### 📁 Project Resources")
+
+st.sidebar.markdown("""
+<div style="
+background:#0b1a2b;
+padding:16px 18px;
+border-radius:16px;
+line-height:1.8;
+">
+
+<a href="https://colab.research.google.com/drive/1_6s-VwLv4mqSrqLzo_UQ15pXghxuLlJi?usp=sharing" target="_blank">📓 Google Colab</a><br>
+<a href="https://www.kaggle.com/datasets/csafrit2/maternal-health-risk-data" target="_blank">📊 Dataset</a><br>
+<a href="https://github.com/evamusdalifah/maternalhealth" target="_blank">💻 GitHub</a><br>
+<a href="https://drive.google.com/file/d/1fvurYSVP8QUvhwhQRLtaiPlQ0ihQr42W/view?usp=sharing" target="_blank">📄 PDF Report</a>
+
+</div>
+""", unsafe_allow_html=True)
+
 def card(title, value):
     return f"""
     <div class="metric-card">
